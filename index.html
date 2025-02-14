@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine, Avnii? ❤️</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: url('valentine-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #660033;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgba(255, 77, 77, 0.8);
+      padding: 20px;
+      color: white;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 800px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ff4d4d;
+    }
+    .letter, .quiz, .poem, .love-story, .shayari {
+      margin: 40px 0;
+    }
+    .love-story {
+      text-align: left;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .love-story p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .countdown {
+      font-size: 1.5rem;
+      margin: 20px 0;
+    }
+    button {
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #e60000;
+    }
+    footer {
+      background-color: rgba(255, 77, 77, 0.8);
+      padding: 10px;
+      color: white;
+      margin-top: 40px;
+    }
+    .response {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+    .shayari p {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #660033;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Will You Be My Valentine, Avnii? ❤️</h1>
+    <p>You mean the world to me!</p>
+  </header>
+
+  <div class="container">
+    <!-- Countdown Timer -->
+    <div class="countdown" id="countdown"></div>
+
+    <!-- Ask to Be My Valentine -->
+    <div class="valentine-ask">
+      <h2>Avnii, Will You Be My Valentine?</h2>
+      <button onclick="showResponse('yes')">Yes</button>
+      <button onclick="showResponse('no')">No</button>
+      <p id="response" class="response"></p>
+    </div>
+
+    <!-- Memory Gallery -->
+    <div class="gallery">
+      <h2>My Bubie</h2>
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+      <img src="photo4.jpg" alt="Photo 4">
+    </div>
+
+    <!-- Love Story -->
+    <div class="love-story">
+      <h2>Our Love Story</h2>
+      <p>
+        Once upon a time, there was a man named Daniel, whose heart had recently been broken. Feeling lost and unsure, he found himself wandering through a Discord server one quiet evening, searching for something to fill the emptiness. It was in that moment of loneliness that he met her—a girl who seemed to glow like a fairy, named Avni. They teamed up to play a bobble game together, and as the game unfolded, so did their friendship. They shared a few lighthearted words, laughed over silly moments, and for a while, the world felt a little brighter.
+      </p>
+      <p>
+        But just like that, Avni vanished. Daniel couldn’t shake the feeling of wanting to know more about her, so when fate brought them together again in a singing voice chat, his heart skipped a beat. They sang together, their voices harmonizing effortlessly, and soon everyone else in the chat was caught up in the magic of their connection. There was something undeniable about the way they shared that moment—like the universe was telling them they were meant to be more than just strangers on the internet.
+      </p>
+      <p>
+        As the days passed, Daniel couldn't help but feel something deeper for Avni. He poured his heart into his poetry and shared it with her, hoping she'd understand his emotions. Avni listened with care, and she loved his words. But after that, she quietly disappeared once more, leaving Daniel with nothing but his thoughts and growing feelings.
+      </p>
+      <p>
+        It wasn’t long before Daniel realized he was falling for her—desperately, hopelessly. But there was one thing holding him back: he was ten years older than her. He worried that the age difference would be too much, so he stayed silent, even as his heart ached to tell her how much she meant to him.
+      </p>
+      <p>
+        But the bond they had formed could not be ignored. They stayed friends, sharing moments, laughter, and dreams. And then, one day, Daniel decided he couldn’t wait any longer. He told her the truth: he was ten years older. His heart raced as he awaited her reaction. To his surprise, Avni burst into tears.
+      </p>
+      <p>
+        She cried not because of the age difference, but because she feared their love couldn’t survive the distance between them. The tears broke Daniel’s heart, but they also brought them closer. After a few emotional moments, Avni wiped her eyes and, with a soft smile, forgave him. She realized that love was not about age, but about how deeply two hearts could connect.
+      </p>
+      <p>
+        From that day on, their relationship blossomed. They no longer hid their feelings, and their connection only grew stronger. They fought, they laughed, they loved—but most of all, they cherished the bond they had built from nothing but words, games, and shared moments. The distance between them didn’t matter anymore, because they knew they were meant to be.
+      </p>
+      <p>
+        And so, Daniel and Avni’s story continued—a beautiful, unexpected love, full of laughter, growth, and endless possibility.
+      </p>
+    </div>
+
+    <!-- Interactive Love Poem Game -->
+    <div class="poem">
+      <h2>Interactive Love Poem</h2>
+      <p>Click to reveal each line:</p>
+      <button onclick="revealLine(1)">Line 1</button>
+      <p id="line1" style="display: none;">Roses are red, violets are blue,</p>
+      <button onclick="revealLine(2)">Line 2</button>
+      <p id="line2" style="display: none;">Every moment with you feels brand new.</p>
+      <button onclick="revealLine(3)">Line 3</button>
+      <p id="line3" style="display: none;">Your smile is my sunshine, your laugh my sweet song,</p>
+      <button onclick="revealLine(4)">Line 4</button>
+      <p id="line4" style="display: none;">With you, my love, I know I belong.</p>
+      <button onclick="revealLine(5)">Line 5</button>
+      <p id="line5" style="display: none;">Your eyes sparkle like stars in the night,</p>
+      <button onclick="revealLine(6)">Line 6</button>
+      <p id="line6" style="display: none;">With you, everything feels just right.</p>
+      <button onclick="revealLine(7)">Line 7</button>
+      <p id="line7" style="display: none;">Your love is my guiding light,</p>
+      <button onclick="revealLine(8)">Line 8</button>
+      <p id="line8" style="display: none;">With you, my future is bright.</p>
+      <button onclick="revealLine(9)">Line 9</button>
+      <p id="line9" style="display: none;">You're my heart, my soul, my everything,</p>
+      <button onclick="revealLine(10)">Line 10</button>
+      <p id="line10" style="display: none;">Forever with you is the only dream I'm chasing.</p>
+    </div>
+
+    <!-- Interactive Shayari -->
+    <div class="shayari">
+      <h2>Interactive Shayari</h2>
+      <p>Click to reveal each shayari:</p>
+      <button onclick="revealShayari(1)">Shayari 1</button>
+      <p id="shayari1" style="display: none;">Tere bina zindagi se koi shikwa nahi,<br>Tere bina zindagi bhi zindagi nahi.</p>
+      <button onclick="revealShayari(2)">Shayari 2</button>
+      <p id="shayari2" style="display: none;">Tujhse mohabbat hai, iska izhar nahi,<br>Bas itna samajh le, tu meri har khushi ka sahar nahi.</p>
+      <button onclick="revealShayari(3)">Shayari 3</button>
+      <p id="shayari3" style="display: none;">Dil ki baat labon tak aane do,<br>Tumhe apna banane ka sapna sach hone do.</p>
+      <button onclick="revealShayari(4)">Shayari 4</button>
+      <p id="shayari4" style="display: none;">Tere ishq ne mujhe zinda kar diya,<br>Tune mere dil ko apna kar diya.</p>
+      <button onclick="revealShayari(5)">Shayari 5</button>
+      <p id="shayari5" style="display: none;">Tum mere ho, yeh ehsaas hi kaafi hai,<br>Tumhare bina kuch bhi nahi, yeh jazbaat hi kaafi hai.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made with ❤️ by Manavv for his Cute Bubu Avnii</p>
+    </footer>
+  </div>
+
+  <script>
+    // Countdown Timer
+    const countdownDate = new Date("February 14, 2024 00:00:00").getTime();
+    const timer = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+      if (distance < 0) {
+        clearInterval(timer);
+        document.getElementById("countdown").innerHTML = "Happy Valentine's Day!";
+      }
+    }, 1000);
+
+    // Ask to Be My Valentine
+    function showResponse(answer) {
+      const response = document.getElementById("response");
+      if (answer === 'yes') {
+        response.innerHTML = "Yay! I knew you'd say yes! 😍💖";
+      } else {
+        response.innerHTML = "Oh no! My heart is broken... 💔";
+      }
+    }
+
+    // Reveal Poem Lines
+    function revealLine(lineNumber) {
+      document.getElementById(`line${lineNumber}`).style.display = "block";
+    }
+
+    // Reveal Shayari
+    function revealShayari(shayariNumber) {
+      document.getElementById(`shayari${shayariNumber}`).style.display = "block";
+    }
+  </script>
+</body>
+</html>
